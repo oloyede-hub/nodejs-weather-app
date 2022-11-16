@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333333;
+    font-family: arial;
+;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 16px;
+    flex-grow: 1;
+}
+
+.content img {
+    width: 250px;
+    height: 300px;
+}
+
+h1 {
+    color: grey;
+    padding-block: 20px;
+}
+
+.content p {
+    color: grey;
+    font-size: 20px;
+    padding-block: 10px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+    padding-inline: 40px;
+    background-color: brown;
+    font-size: 18px;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: all 3.s ease-in-out 2s;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.473);
+    font-size: 18px ;
+}
+
+li {
+    margin-right: 30px;
+    list-style: none;
+
+}
+
+/* FORM */
+
+
+.address {
+    padding-inline-start: 20px;
+    padding-block: 10px;
+    outline: none;
+    border: 1px solid #888888;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.address::placeholder {
+    color: gray;
+}
+
+.btn {
+    padding-block: 10px;
+    padding-inline: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background-color: #888888;
+
+    border: 1px solid #888888;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    color: #888888;
+    /* background-color: rgb(202, 202, 202); */
+    border-top: 1px solid #eeeeee;
+    padding-inline: 40px;
+    padding-block: 20px;
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+
+}
+
+/* .attributions {
+    display: inline-flexbox;
+    justify-content: space-between;
+} */
+
+
+
+.created span {
+    color: blueviolet;
+    font-style: oblique;
+}
+
+.attributions a {
+    text-decoration: none;
+    color: green;
+}
